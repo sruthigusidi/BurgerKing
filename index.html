@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Burger King</title>
+  <script src="./script.js"></script>
+</head>
+<body>
+    <div class="home">
+        <img src="burgerhome.jpg"/>
+    </div>
+    
+  <div class="container">
+    
+    <div class="menu">
+      <h2> Explore full menu</h2><br><br>
+      <div class="menu-options">
+        <label><input type="checkbox" name="food" value="Whopper">Whopper</label><br>
+        <label><input type="checkbox" name="food" value="Fries">Fries</label><br>
+        <label><input type="checkbox" name="food" value="Softie">Softie</label><br>
+        <label><input type="checkbox" name="food" value="Coffee">Cold Coffee</label><br>
+        <label><input type="checkbox" name="food" value="Soft Drink">Soft Drink</label><br>
+        <label><input type="checkbox" name="food" value="Meal Combo">Meal Combo</label>
+      </div>
+    </div>
+  <div class="style-0"><button type="button" class="style-1" id="orderBtn"><img class="style-2" /><span class="style-3"> Place Order</span></button></div>
+
+    <div id="loading" class="hidden">Processing your order...</div>
+    <div id="orderDetails" class="hidden">
+      <h2>Your Order</h2>
+      <div id="foodImage"></div>
+      <span id="orderID"></span>
+    </div>
+  </div>
+  
+</body>
+</html>
