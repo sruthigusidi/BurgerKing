@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         sessionStorage.setItem("selectedFoods", JSON.stringify(selectedFoods));
-        window.location.href = "order.html";
+        window.location.href = "Order.html";
     }
 
     var orderBtn = document.getElementById("orderBtn");
